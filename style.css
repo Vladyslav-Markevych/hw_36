@@ -31,13 +31,10 @@ input {
 
 .time-block {
   display: flex;
-  /* margin-top: -30px;
-  margin-left: -23px; */
   gap: 28px;
 }
 
 .time-text {
-  /* margin-left: -4px; */
   margin: 0;
 }
 .time-second {
@@ -68,6 +65,7 @@ input {
 }
 
 .button_black {
+  /* нашел в интернете  */
   border: none;
   padding: 16px 32px;
   text-align: center;
@@ -75,7 +73,7 @@ input {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: white;
