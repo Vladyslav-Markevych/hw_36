@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer type="module" src="./constants.js"></script>
+    <script defer type="module" src="./script.js"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>HW_36</title>
+  </head>
+  <div class="wrapper" id="modal">
+    <div class="modal">
+      <button class="close" id="close">x</button>
+      <form>
+        <div class="time-block">
+          <p class="time-text">hours</p>
+          <p class="time-text">minutes</p>
+          <p class="time-text time-second">seconds</p>
+        </div>
+        <input type="number" name="hour" id="hour" />
+        <input type="number" name="minute" id="minute" />
+        <input type="number" name="second" id="second" />
+        <button id="setButton" type="button">Set</button>
+      </form>
+    </div>
+  </div>
+  <body>
+    <section class="section_timer">
+      <div id="openModal"><p class="text_timer" id="timer">00:05:00</p></div>
+      <div class="bar"><div class="progress" id="progress"></div></div>
+      <div class="button_timer">
+        <button class="button_black" id="start">Start</button>
+        <button class="button_black pause" id="pause">Stop</button>
+        <button class="button_black" id="reset">Reset</button>
+      </div>
+    </section>
+  </body>
+</html>
