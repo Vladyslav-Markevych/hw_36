@@ -52,7 +52,13 @@ input {
 .text_timer {
   font-size: 100px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
+
+.text_timer:hover {
+  background-color: rgba(88, 244, 244, 0.451);
+}
+
 .button_timer {
   margin-left: 30px;
   display: flex;
